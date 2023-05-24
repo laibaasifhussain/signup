@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+     background-color: hsl(216deg 20% 95%);
+
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -50px;
+}
+.img{
+    margin-bottom: -10%;
+    margin-left: -5PX;
+
+}
+/* .input{
+    width: 180px;
+    border-radius: 5px;
+    background-color:rgb(235, 235, 235);
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid #aaa;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding-left:10px ;
+} */
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:28px ;
+}
+.box-title{
+    display: flex;
+    flex-direction:column ;
+    width: 500px;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.sub3{
+    font-size: 10px;
+    color: gray;
+}
+form{
+    margin-right: 20px;
+    width: 450px;
+    height: 550px;
+    box-shadow: 0px 5px 8px 3px #aaa;
+    background-color: white;
+    margin-right: 60px;
+    
+}
+.tite{
+font-size: 32px;
+padding: 10px 10px 0px 10px;
+
+}
+#abc{
+    color: #606770;
+    margin-left: 10px;
+}
+hr{
+    margin-top: 10px;
+    opacity: 20px;
+}
+
+.sub{
+    margin-top: 10px;
+    font-size: 12px;
+}
+select{
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+    font-size: 15px;
+    background: none;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+
+}
+.sub2{
+    margin-top: 10px;
+    font-size: 12px;
+
+}
+#all-Gender{
+    width: 500px;
+    height: 30px;
+    border: 1px solid #aaa;
+    padding: 10px 0px 0px 0px;
+    display: inline;
+    border-radius: 5px;
+}
+.female{
+   width: 500px;
+   height: 30px;
+
+}
+.male{
+    height: 30px;
+width: 500px;
+
+}
+.other{
+    width: 500px;
+    height: 30px;
+
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: #0ebd02;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin-left: 25%;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.display{
+    width: 180px;
+    border-radius: 5px;
+    background-color:rgb(235, 235, 235);
+    height: 35px;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding-left:10px ;
+}
+
+button:hover{
+    opacity:60% ;
+}
